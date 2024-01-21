@@ -1,0 +1,83 @@
+.header-top {
+    width: 70%;
+    margin: auto;
+
+
+}
+
+.header-top ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header-top ul li:hover {
+    cursor: pointer;
+    color: #7971EA;
+}
+
+.section1 {
+    height: 700px;
+
+    background-image: url("https://preview.colorlib.com/theme/shoppers/images/hero_1.jpg.webp");
+}
+
+.siderBar {
+
+    width: 20%;
+    position: relative;
+    margin: 50px;
+    padding: 100px;
+    left: 800px;
+
+
+
+}
+
+.siderBar h1 {
+    font-size: 60px;
+
+
+}
+
+.siderBar b {
+    color: gray;
+}
+
+.sec-btn {
+    width: 30%;
+    height: 50px;
+    background-color: #7971EA;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #7971EA;
+}
+
+.shopping {
+    width: 90%;
+    margin: auto;
+}
+
+.free-returns {
+    box-sizing: border-box;
+}
+
+.free-ship {
+    box-sizing: border-box;
+}
+
+.customer-sup {
+    box-sizing: border-box;
+}
+
+.div-bottom {
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width:600px) {
+
+        flex-direction: column;
+    }
+}

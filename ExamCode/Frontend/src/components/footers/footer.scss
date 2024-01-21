@@ -1,0 +1,54 @@
+.footesr1 {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.line {
+    width: 5%;
+    border: 3px solid purple;
+    margin: auto;
+}
+
+.sidebar-foot {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.imagefoot {
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 300px;
+    width: 60%;
+
+    @media (max-width:600px) {
+        flex-direction: column;
+
+        .imagefoot img {
+            min-width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+.foot-btn {
+    width: 30%;
+    height: 50px;
+    background-color: #7971EA;
+    border: 1px solid #7971EA;
+
+}
+
+.side-text h2 p {
+    margin: center;
+
+    @media (max-width:600px) {
+        flex-direction: column;
+    }
+}

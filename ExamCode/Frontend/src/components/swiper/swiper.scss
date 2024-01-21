@@ -1,0 +1,15 @@
+.swiper-zoom-container img {
+    margin: auto;
+}
+
+
+.mySwiper {
+    width: 40%;
+    height: 500px;
+    margin: auto;
+
+    @media (max-width:600px) {
+        margin: 20px;
+    }
+
+}
